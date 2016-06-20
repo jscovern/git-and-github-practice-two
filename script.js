@@ -6,5 +6,8 @@ window.onload = function() {
 
 	function promptEmail () {
 		prompt("What is your email?");
+
+	document.querySelector("#button-yellow").textContent = "Thanks for your email."
+
 	}
 };
